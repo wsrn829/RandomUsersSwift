@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  RandomUsers
 //
-//  Created by S on 5/26/24.
+//  Created by Sarina on 5/26/24.
 //
 
 import SwiftUI
@@ -13,7 +13,7 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Hello, Sarina!")
         }
         .padding()
     }
