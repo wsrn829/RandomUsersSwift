@@ -6,11 +6,13 @@
 //
 
 import Foundation
+import SwiftUI
 
-class UserData {
-    var users: String = ""
+@MainActor
+class UserData: ObservableObject {
+    @Published var users: String = ""
     
-    init() async {
+    init() {
         Task {
             await loadUsers()
         }
@@ -25,5 +27,23 @@ class UserData {
         catch {
             print(error)
         }
+    }
+}
+
+struct UsersView: View {
+    @StateObject var userData = UserData()
+    
+    var body: some View {
+        NavigationView {
+            VStack {
+                Text("Raw JSON Data:")
+                ScrollView {
+                    Text(userData.users)
+                }
+            }
+            .padding()
+            .navigationTitle("Random Users")
+    }
+    
     }
 }

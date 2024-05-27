@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "1540"
+   version = "1.7">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES"
+      buildArchitectures = "Automatic">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1217A04D2C03AB8E00809798"
+               BuildableName = "RandomUsers.app"
+               BlueprintName = "RandomUsers"
+               ReferencedContainer = "container:RandomUsers.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      shouldAutocreateTestPlan = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1217A05D2C03AB9000809798"
+               BuildableName = "RandomUsersTests.xctest"
+               BlueprintName = "RandomUsersTests"
+               ReferencedContainer = "container:RandomUsers.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1217A0672C03AB9000809798"
+               BuildableName = "RandomUsersUITests.xctest"
+               BlueprintName = "RandomUsersUITests"
+               ReferencedContainer = "container:RandomUsers.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1217A04D2C03AB8E00809798"
+            BuildableName = "RandomUsers.app"
+            BlueprintName = "RandomUsers"
+            ReferencedContainer = "container:RandomUsers.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "This error message is related to Xcode, the IDE used for Swift development. It&apos;s indicating that there&apos;s an issue with the logging system initialization, which might result in missing log messages.&#10;&#10;The error message suggests a potential fix: setting `IDEPreferLogStreaming=YES` in the active scheme&apos;s environment variables. Here&apos;s how you can do that:&#10;&#10;1. In Xcode, select the active scheme from the toolbar (next to the Stop button).&#10;&#10;2. Select &quot;Edit Scheme...&quot; from the dropdown menu.&#10;&#10;3. In the left sidebar of the scheme editor, select &quot;Run&quot;.&#10;&#10;4. Select the &quot;Arguments&quot; tab.&#10;&#10;5. In the &quot;Environment Variables&quot; section, click the &quot;+&quot; button to add a new environment variable.&#10;&#10;6. Set the &quot;Name&quot; to `IDEPreferLogStreaming` and the &quot;Value&quot; to `YES`.&#10;&#10;7. Close the scheme editor.&#10;&#10;8. Try running your project again.&#10;&#10;"
+            value = ""
+            isEnabled = "NO">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "IDEPreferLogStreaming"
+            value = "YES"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1217A04D2C03AB8E00809798"
+            BuildableName = "RandomUsers.app"
+            BlueprintName = "RandomUsers"
+            ReferencedContainer = "container:RandomUsers.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
